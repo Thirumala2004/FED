@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Welcome to Javascript</h2>
+        <script>
+            var a=prompt("Enter a number",0);
+            var rem,rev=0;
+            while(a!=0){
+                rem=a%10;
+                rev=(rev*10)+rem;
+                a=parseInt(a/10);
+            }
+            document.write("Reverse = "+rev);
+        </script>
+    </body>
+</html>
